@@ -32,7 +32,8 @@ jobs:
     - run: npm run build:dev -ws --if-present
     - run: npm pack  
     - run: echo "y" | npm run artifactregistry-login
-    - run: npm publish hcl-commerce-store-sdk-9.1.13-`${{GITHUB_RUN_NUMBER}}`.tgz --registry=https://us-central1-npm.pkg.dev/hcldevops/hcldevops/
+    - run: npm publish hcl-commerce-store-sdk-9.1.13-${GITHUB_RUN_NUMBER}.tgz --registry=https://us-central1-npm.pkg.dev/hcldevops/hcldevops/
+    
  
   docker:
     runs-on: ubuntu-latest
