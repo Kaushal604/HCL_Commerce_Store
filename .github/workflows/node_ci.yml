@@ -45,7 +45,7 @@ jobs:
       with:
         projectBaseDir: .
         args: >
-          -Dsonar.organization=hcl
+          -Dsonar.organization=hcldevops
           -Dsonar.projectKey=HCL_Commerce_Store
       env:
         SONAR_TOKEN: ${{ secrets.SONARQUBE_TOKEN }}
