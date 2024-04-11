@@ -42,11 +42,6 @@ jobs:
     - uses: actions/checkout@master
     - name: SonarQube Scan
       uses: sonarsource/sonarqube-scan-action@master
-      with:
-        projectBaseDir: .
-        args: >
-          -Dsonar.organization=hcldevops
-          -Dsonar.projectKey=HCL_Commerce_Store
       env:
         SONAR_TOKEN: ${{ secrets.SONARQUBE_TOKEN }}
         SONAR_HOST_URL: ${{ secrets.SONARQUBE_HOST }}
