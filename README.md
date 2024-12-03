@@ -57,7 +57,7 @@ All NPM scripts can be run from workspace root. For reference see https://docs.n
 
 Note: `-ws` means all workspaces; `-w={workspacename}` is for a specific workspace. `workspacename` can be the folder name, e.g. `packages/react-component` or the package name defined in `package.json`, e.g. `@hcl-commerce-store-sdk/react-component`. For NPM scripts that are defined in the `react-store` package, please take a look at [README.md](./react-store/README.md) file in that package.
 
-### Recommended Editor
+#### Recommended Editor
 
 We recommend Visual Studio Code (VS Code)
 
