@@ -18,7 +18,7 @@ The project can be loaded on any environment supporting Node.js development.
 - Node.js LTS Version >= 16.0.0
 - npm version >= 8.0.0
 
-###### Workspace structure
+######## Workspace structure
 
     |
     |--- react-store: The main React Store NPM package
