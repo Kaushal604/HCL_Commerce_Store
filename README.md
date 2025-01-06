@@ -61,7 +61,7 @@ Note: `-ws` means all workspaces; `-w={workspacename}` is for a specific workspa
 
 We recommend Visual Studio Code (VS Code)
 
-##### VS Code editor extensions
+####### VS Code editor extensions
 
 1.  Gitlens: https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
 2.  Code formatting: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
